@@ -1,0 +1,14 @@
+body{
+    text-align: left;
+    color: rgb(236, 226, 226);
+    background-color: rgb(10, 10, 10);
+}
+
+.titulo {
+    font-family: monospace;
+    color: rgb(10, 10, 10);
+}
+
+.subtitulo {
+    font-family: monospace;
+}
