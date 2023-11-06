@@ -1,14 +1,42 @@
-body{
-    text-align: left;
-    color: rgb(236, 226, 226);
-    background-color: rgb(10, 10, 10);
+.esqcima{
+background-color:rgb(255, 3, 3);
+position: absolute;
+top: 0;
+left: 0;
+width: 150px;
+height: 150px;
 }
-
-.titulo {
-    font-family: monospace;
-    color: rgb(10, 10, 10);
+.esqbaixo{
+ background-color: rgb(53, 206, 15);
+ position: absolute;
+ bottom: 0;
+ left:  0;
+ width: 150px;
+ height: 150px;
+ 
 }
-
-.subtitulo {
-    font-family: monospace;
+.dircima{
+background-color: rgb(206, 209, 31);  
+position: absolute;
+top: 0;
+right: 0;  
+width: 150px;
+height: 150px;
+}
+.dirbaixo{
+    background-color: rgb(43, 31, 209);  
+    position: absolute;
+    bottom: 0;
+    right: 0;  
+    width: 150px;
+    height: 150px;
+    }
+.esqcima, .esqbaixo, .dircima, .dirbaixo {
+width: 150px; 
+height: 150px;  
+border: none;
+display: flex;
+align-items: center;
+justify-content: center;
+text-align: center;
 }
